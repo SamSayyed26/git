@@ -268,5 +268,5 @@ git branch --delete <branchname>
 
 ### Questions
 - Git commit creates a duplicate of a previous file with new changes in it. Does every git commit command takes up space in the local system?
-Yes, every commit comand does save the files again in the local system. Though it saves only the changed parts of a file or files. So no data or file is being duplicated.
+-- Yes, every commit comand does save the files again in the local system. Though it saves only the changed parts of a file or files. So no data or file is being duplicated.
 - Difference between git reset and git restore?
