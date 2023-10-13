@@ -67,7 +67,9 @@ If the ```git status``` command is too vague for you — you want to know ex
 ![](images/view%20changes.png)
 
 --------------------------------------------------------------------------------------------
+
 If you want to see what you’ve staged that will go into your next commit, you can use ```git diff --staged```.
+
 --------------------------------------------------------------------------------------------
 It’s important to note that ```git diff``` by itself doesn’t show all changes made since your last commit — only changes that are still unstaged. If you’ve staged all of your changes, ```git diff``` will give you no output.
 
@@ -240,6 +242,7 @@ To switch to an existing branch, you run the ```git checkout``` command. Let’s
 git checkout newBranch
 ```
 This moves ```HEAD``` to point to the ```newBranch``` branch.
+
 --------------------------------------------------------------------------------------------
 To create a new branch and switch to it at the same time, you can run the ```git checkout``` command with the ```-b``` switch:
 ```
