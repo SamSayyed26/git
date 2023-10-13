@@ -24,7 +24,6 @@ rm -rf .git
 
 ## Adding to Git Repo
 
-
 ```git add -A``` stages all changes
 ```git add .``` stages new files and modifications, without deletions (on the current directory and its subdirectories).
 ```git add -u``` stages modifications and deletions, without new files
@@ -44,6 +43,7 @@ You clone a repository with ```git clone <url>```. For example, if you want to c
 $ git clone https://github.com/libgit2/libgit2
 ```
 --------------------------------------------------------------------------------------------
+
 If you want to clone the repository into a directory named something other than ```libgit2```, you can specify the new directory name as an additional argument:
 
 ```
